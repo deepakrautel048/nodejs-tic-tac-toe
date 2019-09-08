@@ -4,7 +4,7 @@ Board = function(table){
 	this.html_cells = []; // the html representation of the board
 	this.board = []; // the board matrix, used to represent the game state 
 	this.symbol = null; // the symbol player plays with
-	
+	//testing by deepak
 	// cache fileld/total cells so you don't have to loop on each move
 	this.filled_cells = 0;
 	this.total_cells = 9;
